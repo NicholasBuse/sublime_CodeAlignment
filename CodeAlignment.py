@@ -22,7 +22,11 @@ class AlignBy(sublime_plugin.TextCommand):
 
         self.m_edit = edit
 
-        plugin_path = os.path.join(sublime.packages_path(), 'CodeAlignment', os.environ["PROCESSOR_ARCHITECTURE"])
+        plugin_path = os.path.join(sublime.packages_path(), 'Code Alignment', os.environ["PROCESSOR_ARCHITECTURE"])
+        if (self.m_debug):
+            print "***"
+            print "plugin_path: " + plugin_path
+            print "***"
 
         #
         # Callback Function Prototypes (Delegates)
