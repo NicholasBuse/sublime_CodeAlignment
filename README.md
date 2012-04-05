@@ -9,6 +9,7 @@ Shortcut Keys
 ------------------
 
 Ctrl+=       - Align By Key
+
 Ctrl+Shift+= - Align By ... (dialog)
 
 Installation
@@ -29,5 +30,5 @@ Know limitation is Sublime Text (x86) for Windows Only
 TODO
 ------------------
 
-Update to support x64
-Update to support Mac/Linux via Mono
+- Update to support x64
+- Update to support Mac/Linux via Mono
